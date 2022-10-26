@@ -1,0 +1,88 @@
+body {
+    padding: 30px;
+    margin: 0;
+}
+
+.post {
+    font-family: "Poppins", sans-serif;
+}
+
+.post p {
+    font-size: 14px;
+}
+
+.post button {
+    color: red;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.post:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.treatment1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    padding: 35px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.right h4 {
+    padding-bottom: 5px;
+    color: blue;
+    display: flex;
+}
+
+.right p {
+    padding-bottom: 5px;
+    line-height: 1.3em;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.right a {
+    background: blue;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+
+.right a:hover {
+    border: 2px solid blue;
+    background: none;
+    color: blue;
+    cursor: pointer;
+    transition: all ease-out 0.5s;
+}
